@@ -1,4 +1,4 @@
-# Proyect Test Tesselar
+# Project Test Tesselar
 
 Creation of a design based on a given mockup
 
