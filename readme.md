@@ -18,5 +18,6 @@ Application running on http://localhost:3050!
 * [Google Fonts](https://fonts.google.com/specimen/Raleway?selection.family=Raleway) - Typography Raleway
 * [ExpressJS](https://expressjs.com/en/starter/hello-world.html) - Framework for Node.js to create the API
 * [jQuery](https://code.jquery.com/jquery-3.3.1.min.js) - To place an order to the web and get an answer
+* [Node.js](https://nodejs.org/en/about/) 
 
 
