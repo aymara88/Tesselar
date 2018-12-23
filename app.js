@@ -178,4 +178,4 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/src/index.html'));
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Application running on http://localhost:${port}!`))
