@@ -8,7 +8,8 @@ Creation of a design based on a given mockup
 # Run
     
     > npm start
-    Application running on http://localhost:3050!
+
+Application running on http://localhost:3050!
 
 # Built with
 
