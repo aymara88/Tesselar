@@ -1,0 +1,449 @@
+/* Definir fuentes personalizadas */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* breakpoints*/
+
+@media (max-width:500px) {}
+
+@media only screen and (min-width:321px) and (max-width:767px) {}
+
+@media (min-width:1600px) {}
+
+/* Elementos generales de la página */
+
+body {
+    font-family: 'Raleway', Arial, sans-serif !important;
+}
+
+#truck,
+#login,
+hr,
+a,
+#footer,
+#prevfooter {
+    color: silver !important;
+}
+
+#company {
+    font-size: 36px;
+    position: relative;
+    right: 20px;
+}
+
+#company2 {
+    font-size: 36px;
+    margin-top: -15px;
+    color: white;
+}
+
+/* Encabezado */
+
+#line1 {
+    background-color: black;
+    color: white !important;
+    padding: 15px;
+    font-size: 12.5px;
+}
+
+#links {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#truck {
+    text-align: left;
+    margin: 0%;
+}
+
+#login {
+    text-align: right;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* Pie de pagina*/
+
+#prevfooter {
+    background-color: #2a2a2a;
+    padding: 40px;
+    color: silver;
+}
+
+#footer {
+    background-color: black;
+    padding: 20px;
+    color: silver;
+}
+
+.spacelistfooter {
+    margin-top: 15px;
+}
+
+.listfooter {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.socialmedia {
+    margin: 5px;
+}
+
+.textprevfooter {
+    font-size: 15px;
+}
+
+#textfooter {
+    margin-left: 25px;
+}
+
+#mailinput {
+    width: 315px !important;
+}
+
+/* brands */
+
+#arrows {
+    text-align: right;
+}
+
+#brands {
+    background-color: #f7f3f360;
+    padding: 60px;
+}
+
+.brandImage {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+/* seccion de busqueda */
+
+#search {
+    padding: 30px;
+    background-color: #e7e3e386;
+}
+
+.cartItems {
+    display: inline-block;
+}
+
+#carts {
+    background-color: #e7e3e386;
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+    left: 270px;
+    margin-top: -30px;
+}
+
+#navbar {
+    padding: 15px;
+}
+
+.navstyle {
+    color: black !important;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.active {
+    border-bottom: 2px solid gray;
+}
+
+#searchinput {
+    background-color: white;
+    font-size: 13px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+}
+
+.searchselect {
+    background-color: white;
+    position: relative;
+    top: 20px;
+    font-size: 13px;
+}
+
+#searchbutton {
+    background-color: black;
+    position: relative;
+    top: 20px;
+}
+
+input::-webkit-input-placeholder {
+    opacity: 0.4 !important;
+}
+
+input::-moz-placeholder {
+    opacity: 0.4 !important;
+}
+
+/* seccion de ofertas con imagenes con botones */
+
+#text1 {
+    color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+    left: 150px;
+}
+
+#text2 {
+    color: whitesmoke;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 50px;
+}
+
+#text3 {
+    color: whitesmoke;
+    text-align: left;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    left: 80px;
+}
+
+#text4 {
+    color: whitesmoke;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    left: 400px;
+    top: 50px;
+}
+
+#text5 {
+    color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 70px;
+}
+
+#background1 {
+    background-image: url('images/2.jpg');
+    background-repeat: no-repeat;
+    padding: 300px;
+    position: relative;
+    top: 10px;
+}
+
+#background2 {
+    background-image: url('images/3.jpg');
+    background-repeat: no-repeat;
+    padding: 300px;
+    position: relative;
+    top: 10px;
+}
+
+#background3 {
+    background-image: url('images/4.jpg');
+    background-repeat: no-repeat;
+    padding: 300px;
+    position: relative;
+    top: 10px;
+}
+
+#background4 {
+    background-image: url('images/5.jpg');
+    background-repeat: no-repeat;
+    padding: 200px;
+    position: relative;
+    bottom: 100px;
+}
+
+#background5 {
+    background-image: url('images/6.jpg');
+    background-repeat: no-repeat;
+    padding: 200px;
+    position: relative;
+    bottom: 100px;
+}
+
+.trans:hover {
+    fill: #ffffff;
+    opacity: 0.6;
+}
+
+/* mostrar mensaje y botones en el carrusel */
+
+#datacarousel {
+    color: whitesmoke;
+    width: 500px;
+    z-index: 1;
+    position: absolute;
+    padding: 20;
+    top: 190px;
+    left: 220px;
+}
+
+#tulips {
+    font-size: 40px;
+}
+
+#sale {
+    position: relative;
+    top: 40px;
+    right: 150px;
+    font-size: 120px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+#shopnow {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 110px;
+    bottom: 190px;
+}
+
+.off50 {
+    position: relative;
+    bottom: 170px;
+    left: 300px;
+    font-size: 50px;
+    width: 80px;
+}
+
+#btncarouse {
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    bottom: 150px;
+}
+
+.slidericon {
+    background-color: #000000;
+    opacity: 0.6;
+    border-radius: 10%;
+    padding: 5%;
+    width: 50px;
+    height: 50px;
+}
+
+.btnshop {
+    color: whitesmoke;
+    border: 0;
+    padding: 10px;
+    width: 150px;
+}
+
+#btn1shop,
+#btn3shop {
+    background-color: #9b9b9b;
+}
+
+#btn2shop,
+#btn4shop,
+#btn5shop,
+#btn6shop,
+#btn7shop {
+    background-color: #4a4a4a;
+}
+
+/* seccion de laminas */
+
+.laminas {
+    display: inline-block;
+    width: 267px;
+    height: 460px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid whitesmoke;
+}
+
+.productImg {
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
+.nameLamina {
+    position: relative;
+    left: 15px;
+    top: 25px;
+    font-size: 17px;
+}
+
+.discount {
+    color: whitesmoke;
+    position: relative;
+    z-index: 1;
+    left: 30px;
+    bottom: 355px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.redondo {
+    background: black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 18px;
+    bottom: 405px;
+}
+
+.actualprice {
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.prevprice {
+    position: relative;
+    left: 200px;
+    bottom: 85px;
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+.reviews {
+    position: relative;
+    left: 14px;
+    bottom: 176px;
+}
+
+.lamStar {
+    font-size: 11px;
+    background-image: url('images/star-solid.svg');
+    opacity: 0.4;
+    width: 92px;
+    color: transparent;
+    position: relative;
+    bottom: 140px;
+    left: 13px;
+}
+
+.slidericonLaminas {
+    background-color: transparent;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+#linkCart {
+    position: relative;
+    top: 10px;
+    left: 130px;
+    color: #000000 !important;
+    font-size: 13px;
+    font-weight: bold;
+}
